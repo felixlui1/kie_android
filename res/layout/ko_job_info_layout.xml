@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_op_id"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_gongxuhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:textStyle="bold"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_job_id"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_gongdanbianhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_sa_id"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_zuzhuangliaohao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_sa_id_desc"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_zuzhuangliaohao_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_so_id"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_so_bianhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_cpn"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_cpn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_other_req"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_other_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_op_req"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_gongxu_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_customer"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/g_d_info_remine_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/sd_padding_common_edge_small"
+        android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+        
+        <TextView 
+            android:id="@+id/g_d_info_remine_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_black_big_style"
+            android:text="@string/ko_title_left"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+        
+        <TextView 
+            android:id="@+id/g_d_info_remine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/sd_text_gray_big_style"
+            android:singleLine="true"
+            android:minWidth="@dimen/ko_job_info_lable_width"/>
+    </LinearLayout>
+
+</LinearLayout>

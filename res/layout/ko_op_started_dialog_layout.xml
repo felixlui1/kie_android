@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp" >
+
+    <LinearLayout
+        style="@style/sd_page_content_style"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/sd_padding_common_edge_huge" >
+
+            <ImageView
+                android:id="@+id/op_started_dialog_progress_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ko_op_started_dlg_progress_bg"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/op_started_dialog_msg_text_view"
+                style="@style/sd_text_black_big_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/sd_padding_common_edge_huge"
+                android:gravity="left"
+                android:layout_centerInParent="true"
+                android:text="@string/ko_title_op_started" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/op_started_dialog_complete_btn"
+            style="@style/sd_button_bottom_bar_no_weight_style"
+            android:text="@string/ko_title_op_started_complete"
+            android:layout_margin="@dimen/sd_padding_common_edge_huge" />
+    </LinearLayout>
+
+</LinearLayout>

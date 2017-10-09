@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/sd_activity_style" >
+
+    <cn.kol.pes.widget.KoPageTitleLayoutView
+        android:id="@+id/sd_common_title_view"
+        style="@style/sd_common_top_bar_class_use_style" >
+    </cn.kol.pes.widget.KoPageTitleLayoutView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0" >
+        
+        <Button
+                android:id="@+id/splash_settings_btn"
+                android:layout_width="129dp"
+                android:layout_height="129dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@null" />
+
+        <TextView
+            android:id="@+id/splash_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ko_login_btn_bg_selector"
+            android:gravity="center"
+            android:text="@string/ko_title_login"
+            android:textColor="@color/sd_color_white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/splash_version_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/sd_text_gray_big_style"
+        android:layout_margin="@dimen/sd_padding_common_edge_huge" />
+
+</LinearLayout>

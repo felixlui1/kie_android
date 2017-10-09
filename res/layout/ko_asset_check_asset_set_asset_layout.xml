@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 设备点检列表的Item View -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+	android:paddingTop="@dimen/sd_padding_common_edge_small"
+	android:paddingBottom="@dimen/sd_padding_common_edge_small">
+
+    <TextView
+        android:id="@+id/asset_check_asset_item_date"
+        style="@style/sd_text_black_big_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp" />
+
+	<TextView
+        android:id="@+id/asset_check_asset_item_light_info"
+        style="@style/sd_text_black_big_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp" />
+
+	<TextView
+        android:id="@+id/asset_check_asset_item_night_info"
+        style="@style/sd_text_black_big_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp" />
+
+</LinearLayout>

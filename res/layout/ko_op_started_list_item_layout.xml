@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- 已开启工序列表的Item View -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/sd_padding_common_edge_middle"
+    android:paddingTop="@dimen/sd_padding_common_edge_middle" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/op_started_item_op_code"
+            style="@style/sd_text_black_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/op_started_item_op_desc"
+            style="@style/sd_text_black_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            android:paddingLeft="@dimen/sd_padding_common_edge_small" />
+
+        <TextView
+            style="@style/sd_text_black_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/sd_padding_common_edge_small"
+            android:text="@string/ko_title_op_started_wip_name" />
+
+        <TextView
+            android:id="@+id/op_started_item_wip_name"
+            style="@style/sd_text_gray_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sd_padding_common_edge_small"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/sd_text_black_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/sd_padding_common_edge_small"
+            android:text="@string/ko_title_op_started_time" />
+
+        <TextView
+            android:id="@+id/op_started_item_op_start_date"
+            style="@style/sd_text_gray_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sd_padding_common_edge_small"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/sd_text_black_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/sd_padding_common_edge_small"
+            android:text="@string/ko_title_last_update_time_staff" />
+
+        <TextView
+            android:id="@+id/op_started_item_last_update_time_staff"
+            style="@style/sd_text_gray_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/sd_padding_common_edge_big" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sd_padding_common_edge_small"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/sd_text_black_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/sd_padding_common_edge_small"
+            android:text="@string/ko_title_trx_quan" />
+
+        <TextView
+            android:id="@+id/op_started_item_trx_quantity"
+            style="@style/sd_text_blue_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/sd_padding_common_edge_huge" />
+
+        <TextView
+            style="@style/sd_text_black_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/sd_padding_common_edge_small"
+            android:text="@string/ko_title_asset_info" />
+
+        <TextView
+            android:id="@+id/op_started_item_asset_info"
+            style="@style/sd_text_gray_middle_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/op_started_item_pct_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/sd_padding_common_edge_small"
+        style="@style/sd_button_common_style_small"
+        android:text="20%"
+        android:visibility="gone">
+    </Button>
+
+</LinearLayout>

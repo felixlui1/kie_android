@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/sd_activity_style" >
+
+    <cn.kol.pes.widget.KoPageTitleLayoutView
+        android:id="@+id/sd_common_title_view"
+        style="@style/sd_common_top_bar_class_use_style" >
+    </cn.kol.pes.widget.KoPageTitleLayoutView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/sd_padding_common_edge" >
+        
+        <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    <TextView
+		       android:id="@+id/asset_check_asset_item_start_date_text"
+		       style="@style/sd_text_as_edit_style"
+		       android:singleLine="true" />
+			
+		    <Button
+		       android:id="@+id/asset_check_asset_item_start_date_btn"
+		       style="@style/sd_button_bottom_bar_no_weight_style"
+		       android:layout_width="160dp"
+		       android:layout_height="46dp"
+		       android:layout_marginLeft="@dimen/sd_padding_common_edge"
+		       android:text="@string/ko_title_select_start_date" />
+	    </LinearLayout>
+	    
+        <LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		    android:orientation="horizontal" >
+		    <TextView
+		       android:id="@+id/asset_check_asset_item_end_date_text"
+		       style="@style/sd_text_as_edit_style"
+		       android:singleLine="true" />
+			
+		    <Button
+		       android:id="@+id/asset_check_asset_item_end_date_btn"
+		       style="@style/sd_button_bottom_bar_no_weight_style"
+		       android:layout_width="160dp"
+		       android:layout_height="46dp"
+		       android:layout_marginLeft="@dimen/sd_padding_common_edge"
+		       android:text="@string/ko_title_select_end_date" />
+	    </LinearLayout>
+        
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="top|center_horizontal" >
+
+        <LinearLayout 
+            android:id="@+id/asset_check_asset_list_parent_layout"
+            style="@style/sd_page_content_style" >
+
+            <ListView
+                android:id="@+id/asset_check_asset_list_list_view"
+                style="@style/sd_common_list_view_style" >
+            </ListView>
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@+id/asset_check_asset_list_error_msg_text_view"
+            style="@style/sd_text_black_big_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sd_padding_common_edge"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 封装的列表对话框的 item view -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="@dimen/sd_padding_common_edge" >
+
+    <TextView
+        android:id="@+id/list_dialog_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        style="@style/sd_text_black_middle_style" />
+    
+    <ImageView 
+        android:id="@+id/list_dialog_img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ko_checkbox_unselected"
+        android:padding="@dimen/sd_padding_common_edge"/>
+
+</LinearLayout>

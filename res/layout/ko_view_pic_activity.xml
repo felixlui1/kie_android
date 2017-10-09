@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/sd_activity_style" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/view_pic_img_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/view_pic_del_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="@dimen/sd_padding_common_edge_small"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ko_del_pic_btn_bg" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/sd_padding_common_edge"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/view_pic_desc_edit"
+                style="@style/sd_text_as_edit_style" />
+
+            <Button
+                android:id="@+id/view_pic_add_pic_btn"
+                style="@style/sd_button_bottom_bar_no_weight_style"
+                android:layout_width="@dimen/ko_width_common_small_button_width"
+                android:layout_height="@dimen/ko_height_common_small_button_height"
+                android:layout_marginLeft="@dimen/sd_padding_common_edge"
+                android:padding="@dimen/sd_padding_common_edge_small"
+                android:text="@string/ko_title_save_asset_pic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

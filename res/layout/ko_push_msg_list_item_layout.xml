@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 封装的列表对话框的 item view -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical|left"
+    android:paddingLeft="@dimen/sd_padding_common_edge"
+    android:paddingTop="@dimen/sd_padding_common_edge_small"
+    android:paddingBottom="@dimen/sd_padding_common_edge_small" >
+
+    <TextView
+        android:id="@+id/push_msg_item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/sd_text_black_middle_style" />
+    
+    <TextView
+        android:id="@+id/push_msg_item_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/sd_text_gray_middle_style"
+        android:layout_marginTop="@dimen/sd_padding_common_edge_small" />
+
+</LinearLayout>

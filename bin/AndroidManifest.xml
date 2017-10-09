@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	      package="cn.kol.pes"
+	      android:versionCode="144"
+	      android:versionName="1.4.4">
+      
+    <uses-sdk 
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17"/>
+    
+    <supports-screens
+    	android:smallScreens="true"
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+    
+    <uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.CAMERA"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+  	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+  	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  	
+    <application
+        android:icon="@drawable/ko_app_icon" 
+        android:label="@string/ko_title_app_name" 
+        android:name="cn.kol.pes.KolApplication">
+
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoLoginActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoMainActivity" 
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	    
+    	</activity>
+    	
+    	<activity 
+    	    android:name=".activity.KoCameraActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+    	    android:screenOrientation="landscape">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoCaptureActivity"
+    	    android:screenOrientation="landscape" 
+    	    android:configChanges="orientation|keyboardHidden"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:windowSoftInputMode="stateAlwaysHidden">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoOpStartActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoOpStartedListActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoOpEndActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoViewJobActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoAssetListActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoAssetAddActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoViewPicActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoAssetRepairActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoPushMsgListActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.SettingsActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoAssetMainActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoAssetCheckActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoAssetCheckAssetListActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<activity 
+    	    android:name="cn.kol.pes.activity.KoAssetCheckSetCheckAssetActivity"
+    	    android:theme="@android:style/Theme.Light.NoTitleBar"
+    	    android:screenOrientation="portrait">
+    	</activity>
+    	
+    	<provider
+    	    android:name="cn.kol.pes.provider.KolAllSavedProvider"
+    	    android:authorities="cn.kol.pes.all_saved">
+    	</provider>
+    	
+    	<service android:name=".activity.KoUploadPicService"></service>
+    	
+    	<service android:name=".activity.KoPushMsgService"></service>
+    	
+    	<receiver android:name=".activity.KoMyReceiver">
+    		<intent-filter> 
+               <action android:name="android.intent.action.BOOT_COMPLETED" /> 
+               <category android:name="android.intent.category.LAUNCHER" /> 
+            </intent-filter>
+            <intent-filter> 
+               <action android:name="cn.kol.pes.action_push_msg_scrap" /> 
+            </intent-filter> 
+    	</receiver>
+    	
+</application>
+</manifest>

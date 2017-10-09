@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ko_title_app_name">Kolinker PES</string>
+    
+    <string name="ko_tips_must_be_right_number">Numeric is needed</string>
+    
+    <string name="ko_title_selected_parts">Select Parts</string>
+    <string name="ko_title_changed_parts">Changed Parts</string>
+    
+    <string name="ko_title_save">Save</string>
+    
+    <string name="ko_title_pass">Normal</string>
+    <string name="ko_title_fail">Anomaly</string>
+    
+    <string name="ko_title_y">Yes</string>
+    <string name="ko_title_n">No</string>
+    <string name="ko_tips_scan_asset_first">Scan Machine QR Code</string>
+    <string name="ko_tips_wrong_asset_num">Invalid Machine Code</string>
+    
+    <string name="ko_title_asset_check_item_title">Check Item</string>
+    
+    <string name="ko_title_asset_check_cancel_check_asset">Cancel Scheduled Check</string>
+    
+    <string name="ko_title_manager_check">Manager Confirm</string>
+    <string name="ko_title_asset_list">Machine List</string>
+    <string name="ko_title_failure_history">Failure History</string>
+    
+    <string name="ko_tips_submit_success">Submitted</string>
+    
+    <string name="ko_title_select_start_date">Select Start Date</string>
+    <string name="ko_title_select_end_date">Select End Date</string>
+    
+    <string name="ko_title_select_asset_need_check_title">Select Machine for Checking</string>
+    
+    <string name="ko_value_asset_normal">OK</string>
+    <string name="ko_value_asset_fail">Fail</string>
+    
+    <string name="ko_title_loading">Loading...</string>
+    <string name="ko_title_is_login">Login...</string>
+    <string name="ko_title_loading_job">Loading Job</string>
+    <string name="ko_title_loading_operation">Loading Op</string>
+    <string name="ko_title_sure">OK</string>
+    <string name="ko_title_cancel">Cancel</string>
+    <string name="ko_title_down_load">Download</string>
+    <string name="ko_title_camera_input_gong_dan">Job Scan</string>
+    <string name="ko_title_camera_input_gong_xu">Op Scan</string>
+    <string name="ko_title_scan_to_input_job_num">Job Scan</string>
+    <string name="ko_title_scan_to_input_op">Op Scan</string>
+    <string name="ko_title_start_op">Start Op</string>
+    <string name="ko_title_end_op">Complete Op</string>
+    <string name="ko_title_view_job">Job Status</string>
+    <string name="ko_title_search_job">Job Inquiry</string>
+    <string name="ko_title_asset_check">Machine Check</string>
+    <string name="ko_title_login">LOGIN</string>
+    <string name="ko_tips_there_no_such_routing_code_in_this_gong_dan">No such Op in this job</string>
+    <string name="ko_tips_wrong_job_num">Wrong Job</string>
+    <string name="ko_tips_input_job_num">Enter Job Number</string>
+    <string name="ko_tips_input_job_num_first">Enter Job Number</string>
+    <string name="ko_tips_input_one_op_first">Select Op</string>
+    <string name="ko_title_scan_input_asset_number">Scan Machine QR Code</string>
+    <string name="ko_title_reset_date_time">Reset Time</string>
+    <string name="ko_title_add_new_asset">Machine Down Record</string>
+    <string name="ko_title_scan_asset">Machine Scan</string>
+    <string name="ko_title_scan_data">Data Scan</string>
+    <string name="ko_title_submit_asset_check_result">Submit Check Data</string>
+    
+    <string name="ko_title_submit_asset_fail_result">Submit Machine Down Data</string>
+    <string name="ko_title_submit_asset_repair_result">Repair Complete</string>
+    <string name="ko_title_save_asset_pic">Save</string>
+    <string name="ko_tips_upload_asset_check">Submitting Machine Down Data</string>
+    <string name="ko_tips_scan_asset_id_first">Scan Machine QR Code, ensure no duplicate entry</string>
+    <string name="ko_tips_upload_asset_repair">Submitting Repair Data</string>
+    <string name="ko_title_check_time">Check Time</string>
+    <string name="ko_title_check_staff">Check Staff</string>
+    <string name="ko_title_expect_repair_time_start">Est Repair Start Time</string>
+    <string name="ko_title_expect_repair_time_end">Est Repair Complete Time</string>
+    <string name="ko_title_asset_repair_title">Machine Repair</string>
+    <string name="ko_tips_repair_select_fail_type">Select Machine Down Type</string>
+    <string name="ko_tips_repair_input_down_time">Enter Down Time</string>
+    <string name="ko_tips_wrong_repair_input_down_time">Please enter a number</string>
+    <string name="ko_tips_wrong_input_quan">Must be greater than 0</string>
+    <string name="ko_tips_input_quan_much_than_max_quan">Can not be larger than remaining quantity</string>
+    <string name="ko_tips_repair_start_time_is_after_end_time">Start time can not be later than end time</string>
+    <string name="ko_tips_check_time_can_not_after_expect_repair_time">Est Repair time can not be earlier than check time</string>
+    <string name="ko_tips_expect_repair_time_can_not_after_expect_fix_time">Est Repair start time can not be later than end time</string>
+    <string name="ko_tips_connect_net_fail">Network Failure</string>
+    <string name="ko_title_add_check_asset">Add Machine Down</string>
+    <string name="ko_title_check_asset_error_list">Machine Down List</string>
+    <string name="ko_title_asset">Machine</string>
+    <string name="ko_title_asset_id">Machine ID</string>
+    <string name="ko_title_asset_last_check_time">Last Check Time</string>
+    <string name="ko_title_asset_fail_desc">Down Type</string>
+    <string name="ko_title_asset_repair_start_time">Repair Start Time</string>
+    <string name="ko_title_asset_repair_end_time">Repair End Time</string>
+    <string name="ko_title_asset_fail_time">Down Time</string>
+    <string name="ko_title_asset_repair_desc">Repair Remarks</string>
+    <string name="ko_title_asset_check_remarks">Check Remarks</string>
+    <string name="ko_title_operate_staff">Operation Staff:</string>
+    <string name="ko_title_asset_check_time">Check Time</string>
+    <string name="ko_title_asset_machine_down_time">Down Time</string>
+    <string name="ko_title_asset_status">Status</string>
+    <string name="ko_title_asset_check_desc">Remarks</string>
+    <string name="ko_title_sure_exit_app">Are you sure to exit</string>
+    <string name="ko_title_sure_exit_op_end_activity">Are you sure to cancel?</string>
+    <string name="ko_title_sure_del_pic">Confirm Deletion</string>
+    <string name="ko_tips_try_data_enable">Checking Server Environment</string>
+    <string name="ko_tips_data_enable_false">Network is down, please try later</string>
+    <string name="ko_title_asset_check_id">Check ID:</string>
+    
+    <string name="ko_title_op_input_quan">Move Quantity</string>
+    <string name="ko_title_op_start_time">Start Time</string>
+    <string name="ko_title_op_end_time">End Time</string>
+    <string name="ko_title_op_start">Start Operation</string>
+    
+    <string name="ko_title_op_id">Op Code</string>
+    <string name="ko_title_job_id">Job No.</string>
+    <string name="ko_title_sa_id">Assembly</string>
+    <string name="ko_title_sa_id_desc">Assembly Notes</string>
+    <string name="ko_title_so_id">SO No.</string>
+    <string name="ko_title_cpn">CPN</string>
+    <string name="ko_title_other_req">Other Req.</string>
+    <string name="ko_title_op_req">Op Req.</string>
+    <string name="ko_title_customer">Customer</string>
+    <string name="ko_title_left">Remain Qty</string>
+    <string name="ko_title_input_quan">Move Qty</string>
+    <string name="ko_title_incomplete_quantity">Incomplete Qty</string>
+    <string name="ko_title_op_started">Op in process</string>
+    <string name="ko_title_op_starting">Starting in process</string>
+    <string name="ko_title_op_triggering">Submitting Op quality data</string>
+    <string name="ko_title_op_ending">Ending Op</string>
+    <string name="ko_title_op_started_complete">Done</string>
+    <string name="ko_tips_sure_quit_op_starting_dlg">Are you sure to exit?</string>
+    <string name="ko_tips_sure_goto_pre_op_seq">Are you sure to re-do previous op?</string>
+    
+    <string name="ko_title_op_started_wip_name">Job No.:</string>
+    <string name="ko_title_op_started_time">Start Time:</string>
+    <string name="ko_title_op_ended_time">End Time:</string>
+    <string name="ko_title_last_update_time_staff">Last updated:</string>
+    <string name="ko_title_last_update_staff">Updated by:</string>
+    <string name="ko_title_trx_quan">Move Qty:</string>
+    <string name="ko_title_scrap_quan">Scrap Qty:</string>
+    <string name="ko_title_asset_info">Machine Info:</string>
+    <string name="ko_title_op_started_list">Started Op List</string>
+    <string name="ko_title_push_msg_list">Push Message List</string>
+    <string name="ko_tips_op_jumped_by_high_level_staff">Op jumped</string>
+    <string name="ko_tips_new_op_cant_start_when_there_is_uncomplete_one">Uploading in process... Please wait</string>
+    <string name="ko_tips_op_no_right_to_jump_op">You have no privilege to jump op</string>
+    <string name="ko_title_op_end">Complete Operation</string>
+    
+    <string name="ko_tips_input_value_should_be_input">Enter</string>
+    <string name="ko_tips_input_value_should_be_number"> Integer</string>
+    <string name="ko_tips_input_value_should_be_number_or_float">Must be a valid number</string>
+    <string name="ko_tips_input_qa_items">Enter mandatory quality data</string>
+    <string name="ko_tips_input_scrap_quan">Enter scrap quantity</string>
+    <string name="ko_tips_wrong_scrap_quan">Must be numeric</string>
+    <string name="ko_tips_scrap_quan_can_not_more_than_trx_quan">scrap is larger than move quantity</string>
+    <string name="ko_tips_scrap_quan_can_not_more_than_scrap_and_trx_quan">Scrap qty is larger than the total</string>
+    
+    <string name="ko_title_op_scrap_quan">Scrap Qty</string>
+    
+    <string name="ko_title_uncomplete">Incomplete</string>
+    <string name="ko_title_unfill">None</string>
+    
+    <string name="ko_title_there_is_new_apk_version">There is a new version</string>
+    <string name="ko_title_downloading_new_apk_version">Downloading new version</string>
+    
+    <string name="ko_tips_this_job_already_finished">All Op completed</string>
+    
+    <string name="ko_title_sure_delete_op">Are you sure to delete this op?</string>
+    <string name="ko_title_is_deleting_op">Deleting Op</string>
+    
+    <string name="ko_title_add_qa_info">Add Quality Collection Plan data</string>
+    
+    <string name="ko_title_version_code">Verson:</string>
+    
+    <string name="ko_tips_asset_not_exists_or_not_belong_to_this_op">Machine not belongs to this Op</string>
+    
+    <string name="ko_tips_op_this_job_has_already_done">Op completed, rework must be entered in ERP</string>
+    
+    <string name="ko_title_child_plan_id">Add Child Plan-</string>
+    
+    <string name="ko_tips_add_qa_item_first">You have to add parent plan ahead of child plan</string>
+    <string name="ko_tips_start_time_cant_after_now">Start time difference is over system limit</string>
+    <string name="ko_tips_end_time_cant_after_now">End time difference is over system limit</string>
+    
+    <string name="ko_tips_your_scrap_quan_is_wrong">Please enter the total scrap quantity</string>
+    
+    <string name="ko_tips_uploaded_op_cant_delete">can not delete uploaded op</string>
+    
+    <string name="ko_tips_server_in_shut_time">Maintenance in progress, please try again later</string>
+    
+    <string name="ko_tips_scrap_number_too_big">Scrap quantity is huge, are you sure?</string>
+    
+    <string name="ko_title_settings_change">Change</string>
+    <string name="ko_tips_password_wrong">Wrong Password</string>
+    
+    <string name="ko_title_settings">Setting</string>
+    
+    <string name="ko_value_day_work_and_asset_number">DAY  TOTAL:</string>
+    <string name="ko_value_night_work_and_asset_number">NITE  TOTAL:</string>
+    <string name="ko_value_asset_need_check">  SEL:</string>
+    <string name="ko_value_asset_already_checked">  CHK:</string>
+    <string name="ko_title_add_changed_asset_parts">Add Changed Parts</string>
+	<string name="ko_title_asset_select_all">Select All</string>
+    <string name="ko_title_asset_unselect_all">Disselect All</string>
+    
+</resources>

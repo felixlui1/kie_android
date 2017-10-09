@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/sd_height_bank_item_height"
+    android:paddingLeft="@dimen/sd_padding_common_edge"
+    android:paddingRight="@dimen/sd_padding_common_edge" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:background="@drawable/ko_toast_bg" >
+
+        <TextView
+            android:id="@+id/toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:minHeight="36dp"
+            android:padding="@dimen/sd_padding_common_edge"
+            android:textColor="@color/sd_color_white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

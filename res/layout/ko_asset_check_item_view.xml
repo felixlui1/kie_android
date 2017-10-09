@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/sd_padding_common_edge_middle" >
+
+    <LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:gravity="center_vertical"
+	    android:orientation="vertical" >
+	    
+	    <TextView
+	        android:id="@+id/asset_check_item_title_view"
+	        style="@style/sd_text_black_middle_style"
+	        android:layout_width="260dp"
+	        android:layout_height="wrap_content"
+	        android:text="@string/ko_title_asset"
+	        android:gravity="center_vertical|left" />
+	    
+	    <TextView
+	        android:id="@+id/asset_check_item_title_chk_view"
+	        style="@style/sd_text_red_small_style"
+	        android:layout_width="260dp"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical|left" />
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/asset_check_item_scan_text_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_weight="1.0" >
+	    <TextView
+	       android:id="@+id/asset_check_item_info_text"
+	       style="@style/sd_text_as_edit_style"
+	       android:singleLine="true" />
+	
+	    <Button
+	       android:id="@+id/asset_check_item_text_btn"
+	       style="@style/sd_button_bottom_bar_no_weight_style"
+	       android:layout_width="96dp"
+	       android:layout_height="44dp"
+	       android:layout_marginLeft="@dimen/sd_padding_common_edge"
+	       android:padding="@dimen/sd_padding_common_edge_small"
+	       android:text="@string/ko_title_scan_asset" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/asset_check_item_scan_edit_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_weight="1.0"
+	    android:visibility="gone">
+	    <EditText
+	        android:id="@+id/asset_check_item_info_edit"
+	        style="@style/sd_text_as_edit_style" />
+	    
+	    <Button
+	       android:id="@+id/asset_check_item_edit_btn"
+	       style="@style/sd_button_bottom_bar_no_weight_style"
+	       android:layout_width="96dp"
+	       android:layout_height="44dp"
+	       android:layout_marginLeft="@dimen/sd_padding_common_edge"
+	       android:padding="@dimen/sd_padding_common_edge_small"
+	       android:text="@string/ko_title_scan_data" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/asset_check_item_anomaly_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_weight="1.0"
+	    android:visibility="gone" >
+	    
+        <cn.kol.pes.widget.koCheckBoxView 
+            android:id="@+id/asset_check_item_anomaly_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/sd_padding_common_edge_middle"
+            android:paddingRight="@dimen/sd_padding_common_edge_huge">
+        </cn.kol.pes.widget.koCheckBoxView>
+        
+        <cn.kol.pes.widget.koCheckBoxView 
+            android:id="@+id/asset_check_item_anomaly_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/sd_padding_common_edge_middle"
+            android:paddingRight="@dimen/sd_padding_common_edge_huge">
+        </cn.kol.pes.widget.koCheckBoxView>
+	    
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/asset_check_item_bool_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_weight="1.0"
+	    android:visibility="gone">
+	    
+        <cn.kol.pes.widget.koCheckBoxView 
+            android:id="@+id/asset_check_item_bool_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/sd_padding_common_edge_middle"
+            android:paddingRight="@dimen/sd_padding_common_edge_huge">
+        </cn.kol.pes.widget.koCheckBoxView>
+        
+        <cn.kol.pes.widget.koCheckBoxView 
+            android:id="@+id/asset_check_item_bool_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/sd_padding_common_edge_middle"
+            android:paddingRight="@dimen/sd_padding_common_edge_huge">
+        </cn.kol.pes.widget.koCheckBoxView>
+	    
+    </LinearLayout>
+
+</LinearLayout>

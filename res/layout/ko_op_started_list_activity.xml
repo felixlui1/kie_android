@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/sd_activity_style" >
+
+    <cn.kol.pes.widget.KoPageTitleLayoutView
+        android:id="@+id/sd_common_title_view"
+        style="@style/sd_common_top_bar_class_use_style" >
+    </cn.kol.pes.widget.KoPageTitleLayoutView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="top|center_horizontal" >
+
+        <LinearLayout 
+            android:id="@+id/op_started_list_parent_layout"
+            style="@style/sd_page_content_style" >
+
+            <ListView
+                android:id="@+id/op_started_list_list_view"
+                style="@style/sd_common_list_view_style" >
+            </ListView>
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@+id/op_started_list_error_msg_text_view"
+            style="@style/sd_text_black_big_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/sd_padding_common_edge"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

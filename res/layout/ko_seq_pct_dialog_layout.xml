@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp" >
+    
+    <LinearLayout
+        style="@style/sd_page_content_style"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/sd_padding_common_edge_big">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sd_text_black_middle_style"
+                android:layout_marginRight="@dimen/sd_padding_common_edge"
+                android:layout_weight="1.0"
+                android:text="完成数量"/>
+            
+           <EditText
+                android:id="@+id/seq_pct_dialog_complete_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                style="@style/sd_edit_text_style"
+                android:layout_margin="@dimen/sd_padding_common_edge_big"/>
+            
+        </LinearLayout>
+
+       <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/sd_padding_common_edge_big">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sd_text_black_middle_style"
+                android:layout_marginRight="@dimen/sd_padding_common_edge"
+                android:layout_weight="1.0"
+                android:text="完成百分比"/>
+        
+        	<TextView
+                android:id="@+id/seq_pct_dialog_complete_pct"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                style="@style/sd_text_gray_middle_style"
+                android:layout_margin="@dimen/sd_padding_common_edge_big"/>
+        </LinearLayout>
+        
+       <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/sd_padding_common_edge_big">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sd_text_black_middle_style"
+                android:layout_marginRight="@dimen/sd_padding_common_edge"
+                android:layout_weight="1.0"
+                android:text="坏品数量"/>
+        
+        	<EditText
+                android:id="@+id/seq_pct_dialog_scrap_qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sd_edit_text_style"
+                android:layout_margin="@dimen/sd_padding_common_edge_big"/>
+        </LinearLayout>
+        
+       <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/sd_padding_common_edge_big">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sd_text_black_middle_style"
+                android:layout_marginRight="@dimen/sd_padding_common_edge"
+                android:layout_weight="1.0"
+                android:text="预计恢复时间"/>
+            
+        	<TextView
+                android:id="@+id/seq_pct_dialog_est_complete_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/sd_text_gray_middle_style"
+                android:layout_margin="@dimen/sd_padding_common_edge_big"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/seq_pct_dialog_submit_btn"
+            style="@style/sd_button_bottom_bar_no_weight_style"
+            android:layout_margin="@dimen/sd_padding_common_edge_big"
+            android:text="保存" />
+        
+    </LinearLayout>
+
+</LinearLayout>

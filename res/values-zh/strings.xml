@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ko_title_app_name">Kolinker PES</string>
+    
+    <string name="ko_tips_must_be_right_number">必须为合法数字</string>
+    
+    <string name="ko_title_selected_parts">选择部件</string>
+    <string name="ko_title_changed_parts">更换部件</string>
+    
+    <string name="ko_title_save">保存</string>
+    
+    <string name="ko_title_pass">正常</string>
+    <string name="ko_title_fail">异常</string>
+    
+    <string name="ko_title_y">是</string>
+    <string name="ko_title_n">否</string>
+    <string name="ko_tips_scan_asset_first">请扫入设备信息</string>
+    <string name="ko_tips_wrong_asset_num">扫入了错误的设备号</string>
+    
+    <string name="ko_title_asset_check_item_title">点检项目</string>
+    
+    <string name="ko_title_asset_check_cancel_check_asset">取消点检设备</string>
+    
+    <string name="ko_title_manager_check">组长核实</string>
+    <string name="ko_title_asset_list">设备列表</string>
+    <string name="ko_title_failure_history">故障记录</string>
+    
+    <string name="ko_tips_submit_success">提交成功</string>
+    
+    <string name="ko_title_select_start_date">选取开始日期</string>
+    <string name="ko_title_select_end_date">选取截止日期</string>
+    
+    <string name="ko_title_select_asset_need_check_title">选取需要点检的机器</string>
+    
+    <string name="ko_value_asset_normal">设备正常</string>
+    <string name="ko_value_asset_fail">设备故障</string>
+    
+    <string name="ko_title_loading">加载中</string>
+    <string name="ko_title_is_login">正在登录</string>
+    <string name="ko_title_loading_job">正在查询工单</string>
+    <string name="ko_title_loading_operation">正在下载工序</string>
+    <string name="ko_title_sure">确&#160;&#160;&#160;&#160;定</string>
+    <string name="ko_title_cancel">取&#160;&#160;&#160;&#160;消</string>
+    <string name="ko_title_down_load">下&#160;&#160;&#160;&#160;载</string>
+    <string name="ko_title_camera_input_gong_dan">扫入工单</string>
+    <string name="ko_title_camera_input_gong_xu">扫入工序</string>
+    <string name="ko_title_scan_to_input_job_num">扫码输入工单号</string>
+    <string name="ko_title_scan_to_input_op">扫码选择工序</string>
+    <string name="ko_title_start_op">开始工序</string>
+    <string name="ko_title_end_op">完成工序</string>
+    <string name="ko_title_view_job">工单状态</string>
+    <string name="ko_title_search_job">查询工单</string>
+    <string name="ko_title_asset_check">点检设备</string>
+    <string name="ko_title_login">登&#160;&#160;录</string>
+    <string name="ko_tips_there_no_such_routing_code_in_this_gong_dan">当前工单的工序中没有这道工序</string>
+    <string name="ko_tips_wrong_job_num">扫入了错误的工单号码</string>
+    <string name="ko_tips_input_job_num">请输入工单号码</string>
+    <string name="ko_tips_input_job_num_first">请先输入工单</string>
+    <string name="ko_tips_input_one_op_first">请选择一个工序</string>
+    <string name="ko_title_scan_input_asset_number">扫入设备号</string>
+    <string name="ko_title_reset_date_time">重设时间</string>
+    <string name="ko_title_add_new_asset">添加设备故障记录</string>
+    <string name="ko_title_scan_asset">扫入设备</string>
+    <string name="ko_title_scan_data">扫入数据</string>
+    <string name="ko_title_submit_asset_check_result">提&#160;&#160;交&#160;&#160;点&#160;&#160;检&#160;&#160;信&#160;&#160;息</string>
+    
+    <string name="ko_title_submit_asset_fail_result">提&#160;&#160;交&#160;&#160;故&#160;&#160;障&#160;&#160;信&#160;&#160;息</string>
+    <string name="ko_title_submit_asset_repair_result">维&#160;&#160;修&#160;&#160;完&#160;&#160;成</string>
+    <string name="ko_title_save_asset_pic">保存</string>
+    <string name="ko_tips_upload_asset_check">正在提交故障信息</string>
+    <string name="ko_tips_scan_asset_id_first">请扫入设备，且不要重复输入多台相同的设备</string>
+    <string name="ko_tips_upload_asset_repair">正在提交维修信息</string>
+    <string name="ko_title_check_time">点检时间</string>
+    <string name="ko_title_check_staff">点检员工</string>
+    <string name="ko_title_expect_repair_time_start">预计维修时间</string>
+    <string name="ko_title_expect_repair_time_end">预计修复时间</string>
+    <string name="ko_title_asset_repair_title">维修设备</string>
+    <string name="ko_tips_repair_select_fail_type">请选择故障描述</string>
+    <string name="ko_tips_repair_input_down_time">请填写停机时间</string>
+    <string name="ko_tips_wrong_repair_input_down_time">停机时间格式错误，请填写数字</string>
+    <string name="ko_tips_wrong_input_quan">错误的投入数，请填写大于0的数字</string>
+    <string name="ko_tips_input_quan_much_than_max_quan">投入数不能大于剩余数</string>
+    <string name="ko_tips_repair_start_time_is_after_end_time">维修开始时间不能晚于维修结束时间</string>
+    <string name="ko_tips_check_time_can_not_after_expect_repair_time">预计维修时间不能早于点检时间</string>
+    <string name="ko_tips_expect_repair_time_can_not_after_expect_fix_time">预计维复时间不能早于预计维修时间</string>
+    <string name="ko_tips_connect_net_fail">网络连接失败</string>
+    <string name="ko_title_add_check_asset">添加故障记录</string>
+    <string name="ko_title_check_asset_error_list">故障设备列表</string>
+    <string name="ko_title_asset">设备</string>
+    <string name="ko_title_asset_id">设备号</string>
+    <string name="ko_title_asset_last_check_time">上次点检时间</string>
+    <string name="ko_title_asset_fail_desc">故障描述</string>
+    <string name="ko_title_asset_repair_start_time">开始维修时间</string>
+    <string name="ko_title_asset_repair_end_time">完成维修时间</string>
+    <string name="ko_title_asset_fail_time">停机时长</string>
+    <string name="ko_title_asset_repair_desc">维修备注</string>
+    <string name="ko_title_asset_check_remarks">点检备注</string>
+    <string name="ko_title_operate_staff">操作员工：</string>
+    <string name="ko_title_asset_check_time">点检时间</string>
+    <string name="ko_title_asset_machine_down_time">停机时间</string>
+    <string name="ko_title_asset_status">设备状态</string>
+    <string name="ko_title_asset_check_desc">备注</string>
+    <string name="ko_title_sure_exit_app">确定退出应用？</string>
+    <string name="ko_title_sure_exit_op_end_activity">确定退出完成工序界面？</string>
+    <string name="ko_title_sure_del_pic">确定删除照片？</string>
+    <string name="ko_tips_try_data_enable">正在检测服务器环境</string>
+    <string name="ko_tips_data_enable_false">网络暂时不通畅，请稍后操作</string>
+    <string name="ko_title_asset_check_id">点检号:</string>
+    
+    <string name="ko_title_op_input_quan">投入数</string>
+    <string name="ko_title_op_start_time">开始时间</string>
+    <string name="ko_title_op_end_time">完成时间</string>
+    <string name="ko_title_op_start">开&#160;&#160;启&#160;&#160;工&#160;&#160;序</string>
+    
+    <string name="ko_title_op_id">工序号</string>
+    <string name="ko_title_job_id">工单编号</string>
+    <string name="ko_title_sa_id">组装料号</string>
+    <string name="ko_title_sa_id_desc">组装料号摘要</string>
+    <string name="ko_title_so_id">SO编号</string>
+    <string name="ko_title_cpn">CPN</string>
+    <string name="ko_title_other_req">其它要求</string>
+    <string name="ko_title_op_req">工序要求</string>
+    <string name="ko_title_customer">客户</string>
+    <string name="ko_title_left">剩余数</string>
+    <string name="ko_title_input_quan">投入数</string>
+    <string name="ko_title_incomplete_quantity">未完成数</string>
+    <string name="ko_title_op_started">正在加工工序</string>
+    <string name="ko_title_op_starting">正在开始工序</string>
+    <string name="ko_title_op_triggering">正在提交质量管理数据</string>
+    <string name="ko_title_op_ending">正在完成工序</string>
+    <string name="ko_title_op_started_complete">加&#160;&#160;工&#160;&#160;完&#160;&#160;成</string>
+    <string name="ko_tips_sure_quit_op_starting_dlg">确认退出工序加工界面？</string>
+    <string name="ko_tips_sure_goto_pre_op_seq">确定开启之前已经加工过的工序？</string>
+    
+    <string name="ko_title_op_started_wip_name">工单号:</string>
+    <string name="ko_title_op_started_time">开始时间:</string>
+    <string name="ko_title_op_ended_time">完成时间:</string>
+    <string name="ko_title_last_update_time_staff">最近一次操作:</string>
+    <string name="ko_title_last_update_staff">上次更新员工:</string>
+    <string name="ko_title_trx_quan">投入数:</string>
+    <string name="ko_title_scrap_quan">坏品数:</string>
+    <string name="ko_title_asset_info">设备信息:</string>
+    <string name="ko_title_op_started_list">已启动的工序列表</string>
+    <string name="ko_title_push_msg_list">推送消息列表</string>
+    <string name="ko_tips_op_jumped_by_high_level_staff">您跳过了一些工序</string>
+    <string name="ko_tips_new_op_cant_start_when_there_is_uncomplete_one">当前尚有未完成工序，不能开启新的不同工序</string>
+    <string name="ko_tips_op_no_right_to_jump_op">您没有权限跳工序</string>
+    <string name="ko_title_op_end">完&#160;&#160;成&#160;&#160;工&#160;&#160;序</string>
+    
+    <string name="ko_tips_input_value_should_be_input">请填写&#160;</string>
+    <string name="ko_tips_input_value_should_be_number">&#160;必须是正整数</string>
+    <string name="ko_tips_input_value_should_be_number_or_float">&#160;必须是正整数或者正实数</string>
+    <string name="ko_tips_input_qa_items">请填写质量管理数据项</string>
+    <string name="ko_tips_input_scrap_quan">请填写坏品数量</string>
+    <string name="ko_tips_wrong_scrap_quan">坏品数量必须是数字</string>
+    <string name="ko_tips_scrap_quan_can_not_more_than_trx_quan">坏品数量不能大于投入数</string>
+    <string name="ko_tips_scrap_quan_can_not_more_than_scrap_and_trx_quan">坏品数量不能大于投入数与之前的坏品数之和</string>
+    
+    <string name="ko_title_op_scrap_quan">坏品数</string>
+    
+    <string name="ko_title_uncomplete">未完成</string>
+    <string name="ko_title_unfill">无</string>
+    
+    <string name="ko_title_there_is_new_apk_version">下载新的客户端版本</string>
+    <string name="ko_title_downloading_new_apk_version">正在下载新的客户端程序</string>
+    
+    <string name="ko_tips_this_job_already_finished">此工单已完成所有工序</string>
+    
+    <string name="ko_title_sure_delete_op">确定删除这个工序?</string>
+    <string name="ko_title_is_deleting_op">正在删除工序</string>
+    
+    <string name="ko_title_add_qa_info">添加质量收集计划</string>
+    
+    <string name="ko_title_version_code">版本号：</string>
+    
+    <string name="ko_tips_asset_not_exists_or_not_belong_to_this_op">您扫入的设备不存在，或者不属于这个工序</string>
+    
+    <string name="ko_tips_op_this_job_has_already_done">该工单已经完成，要返工就请先在Oracle进行撤销</string>
+    
+    <string name="ko_title_child_plan_id">添加质量收集子计划-</string>
+    
+    <string name="ko_tips_add_qa_item_first">请先添加质量收集计划，再添加子计划</string>
+    <string name="ko_tips_start_time_cant_after_now">开启工序时间不能晚于当前时间，并且不能提前当前时间太久</string>
+    <string name="ko_tips_end_time_cant_after_now">完成工序时间不能晚于当前时间，并且不能提前当前时间太久</string>
+    
+    <string name="ko_tips_your_scrap_quan_is_wrong">您应该填写的是本工序的坏品总数量，请填写正确的坏品数</string>
+    
+    <string name="ko_tips_uploaded_op_cant_delete">已经上传的加工工序不能删除</string>
+    
+    <string name="ko_tips_server_in_shut_time">服务器即将进入维护时间，请暂时不要操作工单工序</string>
+    
+    <string name="ko_tips_scrap_number_too_big">输入的坏品数量很大，确定继续完成工序？</string>
+    
+    <string name="ko_title_settings_change">切&#160;&#160;换</string>
+    <string name="ko_tips_password_wrong">密码错误！</string>
+    
+    <string name="ko_title_settings">设置</string>
+    
+    
+    <string name="ko_value_day_work_and_asset_number">白班  设备总数:</string>
+    <string name="ko_value_night_work_and_asset_number">晚班  设备总数:</string>
+    <string name="ko_value_asset_need_check">  需检:</string>
+    <string name="ko_value_asset_already_checked">  已检:</string>
+    <string name="ko_title_add_changed_asset_parts">添加更换的零部件</string>
+    <string name="ko_title_asset_select_all">全选</string>
+    <string name="ko_title_asset_unselect_all">不选</string>
+    
+</resources>

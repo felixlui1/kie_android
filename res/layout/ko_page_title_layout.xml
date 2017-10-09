@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/sd_common_top_bar_style">
+    
+	<TextView
+	    android:id="@+id/title_bar_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    style="@style/sd_text_white_big_style"
+	    android:ellipsize="marquee"
+	    android:marqueeRepeatLimit="marquee_forever"
+	    android:singleLine="true"
+	    android:paddingTop="@dimen/sd_padding_common_edge_small"
+	    android:paddingBottom="@dimen/sd_padding_common_edge_small"
+	    android:textStyle="bold"
+	    android:gravity="left|center_vertical"
+	    android:focusable="true"
+	    android:scrollHorizontally="true"      
+	    android:focusableInTouchMode="true"  
+	    android:freezesText="true" 
+	    android:text="@string/ko_title_app_name"/>
+	
+	<ImageView 
+	    android:id="@+id/title_bar_clickable_img"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitCenter"
+	    android:visibility="gone"/>
+	
+	<LinearLayout 
+	    android:id="@+id/title_bar_set_left_view"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1.0"
+	    android:orientation="horizontal"
+	    android:visibility="gone">
+	</LinearLayout>
+
+</LinearLayout>
